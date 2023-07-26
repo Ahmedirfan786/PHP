@@ -1,2 +1,2 @@
 # PHP
-In this repositry i will upload all my cphp class tasks :)
+In this repositry i will upload all my php class tasks :)
