@@ -1,5 +1,10 @@
 <?php
-include('Connection.php')
+include('query.php');
+if(!isset($_SESSION['uemail'])){
+    echo "<script>
+    location.assign('login.php');
+    </script>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -111,6 +116,14 @@ $query->execute();
 
 
 <!-- View container ends -->
+
+
+<div class="logoutbtncont pt-5">
+    <form method="POST">
+    <button type="button" class="btn btn-danger" name="logout"><a href="logout.php" style=color:white;>Logout</a></button>
+    </form>
+</div>
+
 </body>
 <?php
 
