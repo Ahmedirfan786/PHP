@@ -21,6 +21,7 @@ $products = $query->fetchAll(PDO::FETCH_ASSOC);
                 <h2 class="text-center mt-3 mb-4">Product List</h2>
                 
                         <button class="btn btn-info mb-3"><a href="create.php" class="text-white">Add Product</a></button>
+                        <button class="btn btn-success mb-3"><a href="view.php" class="text-white">View Products</a></button>
                 
                 <table class="table table-bordered mt-2">
                     <thead>
