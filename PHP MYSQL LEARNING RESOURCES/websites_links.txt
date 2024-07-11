@@ -1,0 +1,22 @@
+The Websites links to learn php are:
+
+1)W3Schools👇🏻
+        MySQL: https://www.w3schools.com/MySQL/
+        PHP: https://www.w3schools.com/php/
+
+2)Tutorialspoint👇🏻
+        MySQL: https://www.tutorialspoint.com/mysql/
+        PHP: https://www.tutorialspoint.com/php/
+
+3)Javatpoint👇🏻
+        MySQL: https://www.javatpoint.com/mysql-tutorial
+        PHP: https://www.javatpoint.com/php-tutorial
+
+4)GeeksforGeeks👇🏻
+        MySQL: https://www.geeksforgeeks.org/mysql-tutorial/
+        PHP: https://www.geeksforgeeks.org/php-tutorial/
+
+5)Guru99👇🏻
+        MySQL: https://www.guru99.com/mysql-tutorial.html
+        PHP: https://www.guru99.com/php-tutorials.html
+
