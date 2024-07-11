@@ -1,0 +1,21 @@
+The Websites links to learn php and mysql are:
+
+1)Yahoo Baba (Youtube)👇🏻
+        MySQL: https://www.youtube.com/playlist?list=PL0b6OzIxLPbzf12lu5etX_vjN-eUxgxnr
+        PHP: https://www.youtube.com/playlist?list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs
+
+2)WsCubeTech (Youtube)👇🏻
+        MySQL: https://www.youtube.com/playlist?list=PLjVLYmrlmjGeyCPgdHL2vWmEGKxcpsC0E
+        PHP: https://www.youtube.com/watch?v=EJWw1bd0-C0
+
+3)Thapa Technical (Youtube)👇🏻
+        MySQL: https://www.youtube.com/playlist?list=PLwGdqUZWnOp2R_BVnHPqD3aMg7wHWlL8k
+        PHP: https://www.youtube.com/playlist?list=PLwGdqUZWnOp1U4kemcU_vF9KQuHXlNxkb
+
+4)udemy👇🏻
+        MySQL+PHP: https://www.udemy.com/course/php-with-mysql-2023-build-7-php-and-mysql-projects/?couponCode=PHP7PROJECTS51
+
+5)Simplilearn (Youtube)👇🏻
+        MySQL: https://www.youtube.com/watch?v=SycDH3NSJUU
+        PHP: https://www.youtube.com/watch?v=6EukZDFE_Zg
+

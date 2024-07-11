@@ -1,4 +1,4 @@
-The Websites links to learn php are:
+The Websites links to learn php and mysql are:
 
 1)W3Schools👇🏻
         MySQL: https://www.w3schools.com/MySQL/
