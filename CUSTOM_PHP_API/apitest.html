@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row" id="user-cards"></div>
+    </div>
+
+   
+</body>
+<script>
+    fetch('http://localhost/PHP/CUSTOM_PHP_API/api.php')
+        .then(response => response.json())
+        .then(data => {
+            const userCards = document.getElementById('user-cards');
+            data.forEach(user => {
+                console.log(`ID: ${user.id}, Name: ${user.name}, Email: ${user.email}, Phone: ${user.phone}, Image: ${user.image}`);
+                const card = document.createElement('div');
+                card.className = 'col-md-4 mb-4';
+                card.innerHTML = `
+                    <div class="card">
+                        <img src="${user.image}" height="250px" alt="${user.name}">
+                        <div class="card-body">
+                            <h5 class="card-title">${user.name}</h5>
+                            <p class="card-text">
+                                <strong>ID:</strong> ${user.id}<br>
+                                <strong>Email:</strong> ${user.email}<br>
+                                <strong>Phone:</strong> ${user.phone}
+                            </p>
+                        </div>
+                    </div>
+                `;
+                userCards.appendChild(card);
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+</script>
+</html>
