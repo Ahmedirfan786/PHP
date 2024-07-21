@@ -2,9 +2,9 @@
 
 include('Connection.php');
 $reponse = array();
-if($con){
+if($conn){
     $sql="Select * from users";
-    $result=mysqli_query($con,$sql);
+    $result=mysqli_query($conn,$sql);
 
     if($result){
         header('Content-Type: JSON');
