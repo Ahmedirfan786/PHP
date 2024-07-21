@@ -1,0 +1,14 @@
+In order to run and test this small project please follow the following steps
+
+1.Download and install Xampp Software on your pc/laptop 
+    see this video: https://www.youtube.com/watch?v=at19OmH2Bg4
+
+2.Then copy the Custom_php_api file and paste in the drive in which xaamp is installed
+    In: drive/xampp/htdocs
+
+3.Open Xampp Software and turn on apache and mysql server when they turn go to your any latest browser
+
+4.Enter in url localhost/phpmyadmin and then create a database named apitest and after creating the database select the database from the left side and then at the top you will see import and then choose the database file that is included in this custom_php_api file named as apitest.sql then click on import button.
+    see this video: https://www.youtube.com/watch?v=2ynKAAt1G4Y
+
+5.Then open another tab and enter localhost/Custom_php_api and you are ready enjoy!
